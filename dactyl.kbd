@@ -40,6 +40,10 @@
                         del lmet    pgdn pgup
 )
 
+(defalias
+  mesc (tap-next-release esc rmet)
+)
+
 (deflayer main 
   esc   q  w  e    r    t                 y    u    i  o  p  bspc 
   tab   a  s  d    f    g                 h    j    k  l  ;  '
@@ -47,3 +51,4 @@
            `  lmet lctl      spc     ret       rctl [  ]
                         lalt lmet    esc  ralt
 )
+
